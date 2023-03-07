@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "fefea89d-5415-4730-a0b1-d6a49ba3f027",
+		"name": "GUILD Movie API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8560171"
+	},
+	"item": [
+		{
+			"name": "Get Genre Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/genre-details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"genre-details"
+					],
+					"query": [
+						{
+							"key": "year",
+							"value": "1970",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Genre Details",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/genre-details",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"genre-details"
+							],
+							"query": [
+								{
+									"key": "year",
+									"value": "1970",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 02 Feb 2023 17:17:23 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 99,\n        \"year\": 0,\n        \"name\": \"Documentary\"\n    },\n    {\n        \"id\": 99,\n        \"year\": 1874,\n        \"name\": \"Documentary\"\n    },\n    {\n        \"id\": 99,\n        \"year\": 1878,\n        \"name\": \"Documentary\"\n    },\n    {\n        \"id\": 99,\n        \"year\": 1883,\n        \"name\": \"Documentary\"\n    },\n    {\n        \"id\": 99,\n        \"year\": 1887,\n        \"name\": \"Documentary\"\n    },\n    {\n        \"id\": 99,\n        \"year\": 1888,\n        \"name\": \"Documentary\"\n    },\n    {\n        \"id\": 35,\n        \"year\": 1890,\n        \"name\": \"Comedy\"\n    },\n    {\n        \"id\": 99,\n        \"year\": 1891,\n        \"name\": \"Documentary\"\n    },\n    {\n        \"id\": 16,\n        \"year\": 1892,\n        \"name\": \"Animation\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1893,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 99,\n        \"year\": 1894,\n        \"name\": \"Documentary\"\n    },\n    {\n        \"id\": 99,\n        \"year\": 1895,\n        \"name\": \"Documentary\"\n    },\n    {\n        \"id\": 99,\n        \"year\": 1896,\n        \"name\": \"Documentary\"\n    },\n    {\n        \"id\": 14,\n        \"year\": 1897,\n        \"name\": \"Fantasy\"\n    },\n    {\n        \"id\": 14,\n        \"year\": 1898,\n        \"name\": \"Fantasy\"\n    },\n    {\n        \"id\": 14,\n        \"year\": 1899,\n        \"name\": \"Fantasy\"\n    },\n    {\n        \"id\": 99,\n        \"year\": 1900,\n        \"name\": \"Documentary\"\n    },\n    {\n        \"id\": 35,\n        \"year\": 1901,\n        \"name\": \"Comedy\"\n    },\n    {\n        \"id\": 12,\n        \"year\": 1902,\n        \"name\": \"Adventure\"\n    },\n    {\n        \"id\": 14,\n        \"year\": 1903,\n        \"name\": \"Fantasy\"\n    },\n    {\n        \"id\": 14,\n        \"year\": 1904,\n        \"name\": \"Fantasy\"\n    },\n    {\n        \"id\": 14,\n        \"year\": 1905,\n        \"name\": \"Fantasy\"\n    },\n    {\n        \"id\": 35,\n        \"year\": 1906,\n        \"name\": \"Comedy\"\n    },\n    {\n        \"id\": 14,\n        \"year\": 1907,\n        \"name\": \"Fantasy\"\n    },\n    {\n        \"id\": 35,\n        \"year\": 1908,\n        \"name\": \"Comedy\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1909,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1910,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 35,\n        \"year\": 1911,\n        \"name\": \"Comedy\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1912,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1913,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 35,\n        \"year\": 1914,\n        \"name\": \"Comedy\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1915,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 35,\n        \"year\": 1916,\n        \"name\": \"Comedy\"\n    },\n    {\n        \"id\": 35,\n        \"year\": 1917,\n        \"name\": \"Comedy\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1918,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1919,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1920,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1921,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1922,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1923,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1924,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1925,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1926,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1927,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1928,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1929,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1930,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1931,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1932,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1933,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1934,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1935,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1936,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1937,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1938,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1939,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1940,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 35,\n        \"year\": 1941,\n        \"name\": \"Comedy\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1942,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1943,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1944,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1945,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1946,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1947,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1948,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1949,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1950,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1951,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1952,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1953,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1954,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1955,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1956,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1957,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1958,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1959,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1960,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1961,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1962,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1963,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1964,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1965,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1966,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1967,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1968,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1969,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1970,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1971,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1972,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1973,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1974,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1975,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1976,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1977,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1978,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1979,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1980,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1981,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1982,\n        \"name\": \"Drama\"\n    },\n    {\n        \"id\": 18,\n        \"year\": 1983,\n        \"name\": \"Drama\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get Production Company Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/production-company-details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"production-company-details"
+					],
+					"query": [
+						{
+							"key": "production_id",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "year",
+							"value": "1990",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Production Company Details",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/production-company-details",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"production-company-details"
+							],
+							"query": [
+								{
+									"key": "year",
+									"value": "1990",
+									"disabled": true
+								},
+								{
+									"key": "production_id",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "7",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 02 Feb 2023 05:07:01 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 777000,\n        \"year\": 1973,\n        \"revenue\": 140000000\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 11000000,\n        \"year\": 1977,\n        \"revenue\": 775398007\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 2500000,\n        \"year\": 1979,\n        \"revenue\": 15014674\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 18000000,\n        \"year\": 1980,\n        \"revenue\": 538400000\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 18000000,\n        \"year\": 1981,\n        \"revenue\": 389925971\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 32350000,\n        \"year\": 1983,\n        \"revenue\": 572700000\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 28000000,\n        \"year\": 1984,\n        \"revenue\": 333000000\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 8000000,\n        \"year\": 1985,\n        \"revenue\": 502758\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 62000000,\n        \"year\": 1986,\n        \"revenue\": 50692691\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 47300000,\n        \"year\": 1988,\n        \"revenue\": 141730709\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 48000000,\n        \"year\": 1989,\n        \"revenue\": 474171806\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 115000000,\n        \"year\": 1999,\n        \"revenue\": 924317558\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 120000000,\n        \"year\": 2002,\n        \"revenue\": 649398328\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 0,\n        \"year\": 2004,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 113000000,\n        \"year\": 2005,\n        \"revenue\": 850000000\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 0,\n        \"year\": 2007,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 193500000,\n        \"year\": 2008,\n        \"revenue\": 854918877\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 58000000,\n        \"year\": 2012,\n        \"revenue\": 50365377\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 245000000,\n        \"year\": 2015,\n        \"revenue\": 2081827077\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Lucasfilm\",\n        \"budget\": 200000000,\n        \"year\": 2016,\n        \"revenue\": 1056057273\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 4986,\n        \"year\": 1928,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 5485,\n        \"year\": 1929,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1931,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 15887,\n        \"year\": 1932,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1933,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 2280000,\n        \"year\": 1940,\n        \"revenue\": 83320000\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1944,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1946,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1951,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1961,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1962,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1963,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1966,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 4000000,\n        \"year\": 1967,\n        \"revenue\": 205843612\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1968,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1969,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1972,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1974,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1976,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 0,\n        \"year\": 1980,\n        \"revenue\": 5000000\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 17000000,\n        \"year\": 1982,\n        \"revenue\": 33000000\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 19000000,\n        \"year\": 1983,\n        \"revenue\": 5656087\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 1000000,\n        \"year\": 1984,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 25000000,\n        \"year\": 1985,\n        \"revenue\": 21288692\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 14000000,\n        \"year\": 1986,\n        \"revenue\": 57190163\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 31000000,\n        \"year\": 1988,\n        \"revenue\": 74151346\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 40000000,\n        \"year\": 1989,\n        \"revenue\": 222300000\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 37931000,\n        \"year\": 1990,\n        \"revenue\": 47431461\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 81000000,\n        \"year\": 1991,\n        \"revenue\": 474143713\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 83000000,\n        \"year\": 1992,\n        \"revenue\": 589994178\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 64500000,\n        \"year\": 1993,\n        \"revenue\": 93413558\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 80000000,\n        \"year\": 1994,\n        \"revenue\": 1031649649\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 87000000,\n        \"year\": 1995,\n        \"revenue\": 399117547\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 192000000,\n        \"year\": 1996,\n        \"revenue\": 516786223\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 276000000,\n        \"year\": 1997,\n        \"revenue\": 453833826\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 354000000,\n        \"year\": 1998,\n        \"revenue\": 672141259\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 380000000,\n        \"year\": 1999,\n        \"revenue\": 575724671\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 437500000,\n        \"year\": 2000,\n        \"revenue\": 959148737\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 284000000,\n        \"year\": 2001,\n        \"revenue\": 931497515\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 408000000,\n        \"year\": 2002,\n        \"revenue\": 632822505\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 339500000,\n        \"year\": 2003,\n        \"revenue\": 1155787148\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 367000000,\n        \"year\": 2004,\n        \"revenue\": 1207325950\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 341000000,\n        \"year\": 2005,\n        \"revenue\": 622888032\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 548000000,\n        \"year\": 2006,\n        \"revenue\": 1999550440\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 837000000,\n        \"year\": 2007,\n        \"revenue\": 2699787159\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 280000000,\n        \"year\": 2008,\n        \"revenue\": 951865570\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 575000000,\n        \"year\": 2009,\n        \"revenue\": 1239166046\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 1165000000,\n        \"year\": 2010,\n        \"revenue\": 3695008268\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 663000000,\n        \"year\": 2011,\n        \"revenue\": 1807340435\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 445000000,\n        \"year\": 2012,\n        \"revenue\": 874977182\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 890000000,\n        \"year\": 2013,\n        \"revenue\": 2931270366\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 498000000,\n        \"year\": 2014,\n        \"revenue\": 1913675163\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 635000000,\n        \"year\": 2015,\n        \"revenue\": 1987916055\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 1520400000,\n        \"year\": 2016,\n        \"revenue\": 6394593080\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Walt Disney Pictures\",\n        \"budget\": 765000000,\n        \"year\": 2017,\n        \"revenue\": 3270664523\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 0,\n        \"year\": 1984,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 0,\n        \"year\": 1986,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 0,\n        \"year\": 1987,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 0,\n        \"year\": 1988,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 0,\n        \"year\": 1989,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 30000000,\n        \"year\": 1995,\n        \"revenue\": 373554033\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 0,\n        \"year\": 1997,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 120000000,\n        \"year\": 1998,\n        \"revenue\": 363258859\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 90000000,\n        \"year\": 1999,\n        \"revenue\": 497366869\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 0,\n        \"year\": 2000,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 115000000,\n        \"year\": 2001,\n        \"revenue\": 562816256\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 0,\n        \"year\": 2002,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 94000000,\n        \"year\": 2003,\n        \"revenue\": 940335536\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 92000000,\n        \"year\": 2004,\n        \"revenue\": 631442092\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 0,\n        \"year\": 2005,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 120000000,\n        \"year\": 2006,\n        \"revenue\": 461983149\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 150000000,\n        \"year\": 2007,\n        \"revenue\": 623722818\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 180000000,\n        \"year\": 2008,\n        \"revenue\": 521311860\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 175000000,\n        \"year\": 2009,\n        \"revenue\": 735099082\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 200000000,\n        \"year\": 2010,\n        \"revenue\": 1066969703\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 200000000,\n        \"year\": 2011,\n        \"revenue\": 559852396\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 185000000,\n        \"year\": 2012,\n        \"revenue\": 538983207\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 200000000,\n        \"year\": 2013,\n        \"revenue\": 743559607\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 0,\n        \"year\": 2014,\n        \"revenue\": 0\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Pixar Animation Studios\",\n        \"budget\": 350000000,\n        \"year\": 2015,\n        \"revenue\": 1189537321\n    }\n]"
+				}
+			]
+		}
+	]
+}
